@@ -308,7 +308,23 @@ img {
   padding: 32px 0;
 }
 
-.team-logo-wrap {
+.section-team-text {
+  color: var(--slate);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-team-subtitle {
+  color: var(--navyblue);
+  text-align: center;
+  margin-bottom: 8px;
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-logo-list {
@@ -325,7 +341,7 @@ img {
 .team-logo-link {
   width: 100%;
   height: 100%;
-  background-color: var(--iris);
+  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -339,25 +355,6 @@ img {
 
 .section-team-icon {
   fill: #4d5ae5;
-}
-
-.section-team-subtitle {
-  color: var(--navyblue);
-  text-align: center;
-  margin-bottom: 8px;
-  /* Header 3 */
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.section-team-text {
-  color: var(--slate);
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /*Footer Section 5*/

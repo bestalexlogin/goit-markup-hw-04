@@ -409,10 +409,11 @@ img {
 }
 
 .footer-container {
-  width: 1158px;
+  /*width: 1158px;*/
   padding: 0 15px;
   align-items: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin-right: 120px;
 }
 
 .page-footer {
@@ -444,8 +445,9 @@ img {
   max-width: 264px;
 }
 
-.footer-social-container {
-}
+/* .footer-container-socials {
+  margin-left: 120px;
+} */
 
 .footer-social-text {
   font-weight: 500;

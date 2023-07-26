@@ -314,6 +314,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .section-team-subtitle {
@@ -357,14 +358,59 @@ img {
   fill: #4d5ae5;
 }
 
-/*Footer Section 5*/
+/*Customers Section 5*/
+
+.customers-section {
+  padding: 120px 0;
+}
+.customers-section-header {
+  color: var(--navyblue);
+  text-align: center;
+  margin-bottom: 72px;
+  /* Header 2 */
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.customers-section-list {
+  display: flex;
+  gap: 24px;
+}
+.customers-section-item {
+  width: calc((100% - 5 * 24px) / 6);
+  height: 88px;
+}
+
+.customers-section-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--lightslate);
+}
+
+.customers-section-link:hover,
+.customers-section-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.customers-section-icon {
+  fill: currentColor;
+}
+
+/*Footer Section 6*/
 .page-footer {
   background: var(--navyblue);
   padding: 100px 0;
 }
 
-page-footer-wrap {
-}
+/* .page-footer-wrap {
+} */
 
 .page-footer-logo {
   color: #4d5ae5;

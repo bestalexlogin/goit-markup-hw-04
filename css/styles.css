@@ -226,6 +226,7 @@ img {
 .advantages-icon-wrap {
   border-radius: 4px;
   background: var(--cloud);
+  margin-bottom: 8px;
 }
 .advantages-icon {
   margin: 24px 100px;

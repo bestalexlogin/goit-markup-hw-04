@@ -9,7 +9,7 @@ body {
 :root {
   --navyblue: #2e2f42;
   --iris: #4d5ae5;
-  --white: #fff;
+  --white: #ffffff;
   --ocean: #404bbf;
   --green: #31d0aa;
   --slate: #434455;
@@ -24,11 +24,8 @@ body {
 
 .container {
   width: 1158px;
-  /* width: 100%;
-  max-width: 1158px; */
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; DELETE */
 }
 
 /* Reset styles */
@@ -356,7 +353,7 @@ img {
 }
 
 .section-team-icon {
-  fill: #4d5ae5;
+  fill: var(--cloud);
 }
 
 /*Customers Section 5*/
@@ -405,13 +402,23 @@ img {
 }
 
 /*Footer Section 6*/
+
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-container {
+  width: 1158px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .page-footer {
   background: var(--navyblue);
   padding: 100px 0;
 }
-
-/* .page-footer-wrap {
-} */
 
 .page-footer-logo {
   color: #4d5ae5;
@@ -434,8 +441,46 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   max-width: 264px;
+}
+
+.footer-social-container {
+}
+
+.footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-logo {
+  fill: var(--cloud);
 }
 
 /*Page main portfolio*/

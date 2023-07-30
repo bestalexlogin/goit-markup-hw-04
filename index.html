@@ -84,7 +84,7 @@
           <h1 class="main-banner-title">
             Effective Solutions for Your Business
           </h1>
-          <button class="main-banner-button" type="button">
+          <button class="main-banner-button" data-modal-open type="button">
             Order Service
           </button>
         </section>
@@ -441,7 +441,6 @@
     </main>
 
     <!--Footer Section 6-->
-
     <footer class="page-footer">
       <div class="container footer-wrap">
         <div class="footer-container">
@@ -489,5 +488,18 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal window -->
+    <div class="back-drop" data-modal>
+      <div class="modal">
+        <button class="modal-close-button" data-modal-close type="button">
+          <svg class="close-button-image" width="8" height="8">
+            <use src="./images/icons.svg#icon-close-modal-button"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

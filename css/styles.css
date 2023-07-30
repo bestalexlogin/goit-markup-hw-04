@@ -116,7 +116,7 @@ img {
 }
 
 .header-menu-link {
-  color: #404bbf;
+  color: var(--navyblue, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;

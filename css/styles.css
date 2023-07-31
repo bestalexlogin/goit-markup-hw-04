@@ -140,7 +140,7 @@ img {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: var(--ocean);
+  color: var(--ocean, #404bbf);
 }
 
 .header-contacts {

@@ -139,6 +139,12 @@ img {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--ocean);
+  border-bottom: 4px solid var(--ocean);
+}
+
+.menu-link-active {
+  color: var(--ocean);
+  border-bottom: 4px solid var(--ocean);
 }
 
 .header-contacts {
@@ -428,6 +434,7 @@ img {
 .customers-section-link:focus {
   border-color: #404bbf;
   color: #404bbf;
+  fill: ;
 }
 
 .customers-section-icon {

@@ -136,16 +136,18 @@ img {
   border-radius: 2px;
 }
 
-.header-menu-link:hover,
+/* .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--ocean);
   border-bottom: 4px solid var(--ocean);
+  border-radius: 2px;
 }
 
 .menu-link-active {
   color: var(--ocean);
   border-bottom: 4px solid var(--ocean);
-}
+  border-radius: 2px;
+} */
 
 .header-contacts {
   font-style: normal;

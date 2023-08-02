@@ -112,9 +112,6 @@ img {
   gap: 40px;
 }
 
-.header-menu-item {
-}
-
 .header-menu-link {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
@@ -433,7 +430,6 @@ img {
 .customers-section-link:focus {
   border-color: #404bbf;
   color: #404bbf;
-  fill: ;
 }
 
 .customers-section-icon {
@@ -526,9 +522,6 @@ img {
 }
 
 /*Page main portfolio*/
-
-.portfolio {
-}
 
 .portfolio-section {
   padding: 96px 0 120px 0;
@@ -626,9 +619,6 @@ img {
   border: 1px solid var(--cornflower);
   background: var(--white);
   width: calc((100% - 24px * 2) / 3);
-}
-
-.portfolio-about-img {
 }
 
 .portfolio-about-title {
